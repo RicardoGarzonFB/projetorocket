@@ -85,6 +85,8 @@ body * {
   animation: slide-in 0.2s forwards;
 }
 
+/*Bem que podia ter uma musiquinha de fundo nas aulas, algo bem sútil mas perceptível*/
+
 #switch button:hover {
   outline: 8px solid var(--highlight-color);
 }
@@ -131,7 +133,7 @@ ul li a {
   transition: background 0.2s;
 }
 
-/* pseudo-selector */
+/* pseudo-selector = pseudo seletores são uma forma de selecionar elementos HTML com base em seu estado ou posição em relação a outros elementos*/
 ul li a:hover {
   background: var(--surface-color-hover);
   border: 1.5px solid var(--text-color);
